@@ -1,7 +1,7 @@
 require 'office'
 class User < ActiveRecord::Base
 
-	attr_accessible :name, :lastname
+	attr_accessible :name, :lastname, :office_id
 	
 	belongs_to :office
 	
